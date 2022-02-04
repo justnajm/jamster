@@ -17,7 +17,7 @@ Challenge task for responsive themeing
 - google pagespeed score for mobile version is: 87 ( it is down because my server is behind proxy server )
 - google pagespeed score for desktop version is: 89 ( it is down because my server is behind proxy server )
 
-# How to used
+# How to run this code
 1. Clone the repository in www directory of your server
 
 2. Import the database-dump.sql to your database server
