@@ -22,7 +22,10 @@ Challenge task for responsive themeing
 
 2. Import the database-dump.sql to your database server
 
-3. Run the following query to update "http://localhost" server url to "your_server_url"
-update instajam_options set option_value='your_server_url' where option_id in(1,2);
+3. By default server url is: http://localhost, you can update it using following query
+```
+    update instajam_options set option_value='your_server_url' where option_id in(1,2);
+```
+4. Update the wp-config.php with your server database credentials.
 
-4. Load the url in any desktop or mobile browser
+5. Load the url in any desktop or mobile browser
